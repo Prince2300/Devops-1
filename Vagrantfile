@@ -16,7 +16,7 @@ end
     db.vm.box = "ubuntu"
     db.vm.box_url = "C:/me/ubuntu-14.04-amd64.box"
 db.vm.hostname = "ubuntu"
-    db.vm.network "private_network", ip: "192.168.56.11"
+    db.vm.network "private_network", ip: "192.168.56.20"
 db.vm.provider "virtualbox" do |v|
   v.gui = false
   v.name = "ubuntu-1"
